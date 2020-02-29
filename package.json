@@ -5,7 +5,11 @@
   "main": "index.js",
   "author": "Ben Hawley",
   "license": "MIT",
-  "keywords": ["fortnite", "fortnite-api", "fortnite-api-io"],
+  "keywords": [
+    "fortnite",
+    "fortnite-api",
+    "fortnite-api-io"
+  ],
   "bugs": "https://github.com/benhawley7/fortnite-api-io/issues",
   "repository": {
     "type": "git",
