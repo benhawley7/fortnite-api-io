@@ -3,11 +3,9 @@
   "version": "0.1.0",
   "description": "Nodejs module for making requests to fortniteapi.io",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Ben Hawley",
   "license": "MIT",
+  "keywords": ["fortnite", "fortnite-api", "fortnite-api-io"],
   "bugs": "https://github.com/benhawley7/fortnite-api-io/issues",
   "repository": {
     "type": "git",
