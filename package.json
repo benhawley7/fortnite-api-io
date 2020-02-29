@@ -1,0 +1,17 @@
+{
+  "name": "fortnite-api-io",
+  "version": "0.1.0",
+  "description": "Nodejs module for making requests to fortniteapi.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Hawley",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
