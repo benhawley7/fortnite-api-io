@@ -26,7 +26,7 @@ const challenges = await fortniteAPI.listChallenges("current")
 ```
 
 ## Acknowledgement
-Thanks to the devs of https://fortnite-api.io, do consider subscribing on their API Dashboard to support the project and its costs.
+Thanks to the devs of https://fortniteapi.io, do consider subscribing on their API Dashboard to support the project and its costs.
 
 ## License 
 MIT
