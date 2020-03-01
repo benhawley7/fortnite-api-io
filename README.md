@@ -1,4 +1,8 @@
-# fortnite-api-io
+# fortnite-api-io 
+
+[![npm version](https://flat.badgen.net/npm/v/fortnite-api-io)](https://www.npmjs.com/package/fortnite-api-io)
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs/tree/teesloane-patch-5.svg?style=shield)](https://app.circleci.com/github/benhawley7/fortnite-api-io/pipelines)
+
 Simple Wrapper Module for making API calls to https://fortniteapi.io.
 
 Go to the [API Docs](https://fortniteapi.io/) to register for an account and to get an API key.
