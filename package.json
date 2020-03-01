@@ -1,6 +1,6 @@
 {
   "name": "fortnite-api-io",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Nodejs module for making requests to fortniteapi.io",
   "main": "index.js",
   "author": "Ben Hawley",
