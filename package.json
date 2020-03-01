@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "Ben Hawley",
   "license": "MIT",
+  "scripts": {
+    "test": "tape test",
+    "test:coverage": "nyc tape test"
+  },
   "keywords": [
     "fortnite",
     "fortnite-api",
@@ -19,6 +23,7 @@
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "tape": "^4.13.0"
   }
 }

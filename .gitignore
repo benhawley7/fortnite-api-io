@@ -1,3 +1,6 @@
 node_modules
 .DS_Store
 .git
+/coverage
+/.vscode
+/.nyc_output
