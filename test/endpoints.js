@@ -42,3 +42,23 @@ test("search account by id adds username and strict mode false", assert => {
     assert.true(uri.includes("&strict=false"));
     assert.end();
 });
+
+test("endpoints with lang have &lang={lang}", assert => {
+    const lang = "en";
+    const uris = [
+        endpoints.getAchievements(lang),
+        endpoints.getBattlePassRewards("current", lang),
+        endpoints.getDailyShop(lang),
+        endpoints.getItemDetails("test-id", lang),
+        endpoints.getNews("br", lang),
+        endpoints.getDailyShop(lang),
+        endpoints.listChallenges("current", lang),
+        endpoints.listItems(lang),
+        endpoints.listUpcomingItems(lang)
+    ];
+    assert.plan(uris.length);
+    uris.forEach(uri => {
+        assert.true(uri.includes(`lang=${lang}`), `${uri} has lang`);
+    });
+    assert.end();
+});
