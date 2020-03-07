@@ -7,6 +7,8 @@ Simple Wrapper Module for making API calls to https://fortniteapi.io.
 
 Go to the [API Docs](https://fortniteapi.io/) to register for an account and to get an API key.
 
+You can also read the [module docs](https://github.com/benhawley7/fortnite-api-io/wiki) for a list of supported calls.
+
 ## Install the Module
 ```bash
 npm install fortnite-api-io
