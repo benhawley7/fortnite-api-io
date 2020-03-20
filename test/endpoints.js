@@ -24,7 +24,6 @@ test("all endpoints prefix with correct url", assert => {
         assert.true(uri.includes("https://fortniteapi.io"), `${functionName} has correct prefix url`);
     });
     assert.end();
-
 });
 
 test("search account by id adds username and platform", assert => {
