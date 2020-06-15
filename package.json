@@ -1,30 +1,34 @@
 {
-  "name": "fortnite-api-io",
-  "version": "1.4.0",
-  "description": "Nodejs module for making requests to fortniteapi.io",
-  "main": "index.js",
-  "author": "Ben Hawley",
-  "license": "MIT",
-  "scripts": {
-    "test": "tape test",
-    "test:coverage": "nyc tape test"
-  },
-  "keywords": [
-    "fortnite",
-    "fortnite-api",
-    "fortnite-api-io"
-  ],
-  "bugs": "https://github.com/benhawley7/fortnite-api-io/issues",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/benhawley7/fortnite-api-io.git"
-  },
-  "dependencies": {
-    "node-fetch": "^2.6.0"
-  },
-  "devDependencies": {
-    "eslint": "^6.8.0",
-    "nyc": "^15.0.0",
-    "tape": "^4.13.2"
-  }
+    "name": "fortnite-api-io",
+    "version": "1.4.0",
+    "description": "Nodejs module for making requests to fortniteapi.io",
+    "main": "index.js",
+    "author": "Ben Hawley",
+    "license": "MIT",
+    "scripts": {
+        "test": "tape test",
+        "test:coverage": "nyc tape test"
+    },
+    "keywords": [
+        "fortnite",
+        "fortnite-api",
+        "fortnite-api-io"
+    ],
+    "bugs": "https://github.com/benhawley7/fortnite-api-io/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/benhawley7/fortnite-api-io.git"
+    },
+    "files": [
+        "index.js",
+        "lib/**"
+    ],
+    "dependencies": {
+        "node-fetch": "^2.6.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "nyc": "^15.0.0",
+        "tape": "^4.13.2"
+    }
 }
