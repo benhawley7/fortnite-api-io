@@ -1,7 +1,7 @@
 # fortnite-api-io 
 
 [![npm version](https://flat.badgen.net/npm/v/fortnite-api-io)](https://www.npmjs.com/package/fortnite-api-io)
-![Build Status](https://img.shields.io/github/workflow/status/benhawley7/fortnite-api-io/Test/master)
+![](https://github.com/benhawley7/fortnite-api-io/workflows/Node.js%20CI/badge.svg)
 
 Simple Wrapper Module for making API calls to https://fortniteapi.io.
 
