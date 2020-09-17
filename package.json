@@ -1,65 +1,35 @@
 {
-  "_from": "fortnite-api-io@^1.5.2",
-  "_id": "fortnite-api-io@1.5.2",
-  "_inBundle": false,
-  "_integrity": "sha512-ouvfOu32s1Tbd/0EEudC0pgiVkd1BJYluDjBfczluA5JpV/LYR87XpyucaeZC/n/Mx1Ezm60cDCLjUyss2bCmw==",
-  "_location": "/fortnite-api-io",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "fortnite-api-io@^1.5.2",
     "name": "fortnite-api-io",
-    "escapedName": "fortnite-api-io",
-    "rawSpec": "^1.5.2",
-    "saveSpec": null,
-    "fetchSpec": "^1.5.2"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/fortnite-api-io/-/fortnite-api-io-1.5.2.tgz",
-  "_shasum": "e2be1d06036dc26b5723d4c529d0a8430397866c",
-  "_spec": "fortnite-api-io@^1.5.2",
-  "_where": "D:\\Documents\\Bots Discord\\Bot CMaker",
-  "author": {
-    "name": "Ben Hawley"
-  },
-  "contributors": ["Theo Bontemps"],
-  "bugs": {
-    "url": "https://github.com/benhawley7/fortnite-api-io/issues"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "node-fetch": "^2.6.0"
-  },
-  "deprecated": false,
-  "description": "Nodejs module for making requests to fortniteapi.io",
-  "devDependencies": {
-    "eslint": "^6.8.0",
-    "nyc": "^15.0.0",
-    "tape": "^4.13.2"
-  },
-  "files": [
-    "index.js",
-    "lib/**"
-  ],
-  "homepage": "https://github.com/benhawley7/fortnite-api-io#readme",
-  "keywords": [
-    "fortnite",
-    "fortnite-api",
-    "fortnite-api-io"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "name": "fortnite-api-io",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/benhawley7/fortnite-api-io.git"
-  },
-  "scripts": {
-    "test": "tape test",
-    "test:coverage": "nyc tape test"
-  },
-  "version": "1.5.2"
+    "version": "1.5.3",
+    "description": "Nodejs module for making requests to fortniteapi.io",
+    "main": "index.js",
+    "author": "Ben Hawley",
+    "contributors": ["Theo Bontemps"],
+    "license": "MIT",
+    "scripts": {
+        "test": "tape test",
+        "test:coverage": "nyc tape test"
+    },
+    "keywords": [
+        "fortnite",
+        "fortnite-api",
+        "fortnite-api-io"
+    ],
+    "bugs": "https://github.com/benhawley7/fortnite-api-io/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/benhawley7/fortnite-api-io.git"
+    },
+    "files": [
+        "index.js",
+        "lib/**"
+    ],
+    "dependencies": {
+        "node-fetch": "^2.6.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "nyc": "^15.0.0",
+        "tape": "^4.13.2"
+    }
 }
