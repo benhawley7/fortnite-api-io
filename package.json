@@ -1,10 +1,12 @@
 {
     "name": "fortnite-api-io",
-    "version": "1.5.3",
+    "version": "1.6.0",
     "description": "Nodejs module for making requests to fortniteapi.io",
     "main": "index.js",
     "author": "Ben Hawley",
-    "contributors": ["Theo Bontemps"],
+    "contributors": [
+        "Theo Bontemps"
+    ],
     "license": "MIT",
     "scripts": {
         "test": "npx tape test",
