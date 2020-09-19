@@ -4,6 +4,7 @@
     "description": "Nodejs module for making requests to fortniteapi.io",
     "main": "index.js",
     "author": "Ben Hawley",
+    "contributors": ["Theo Bontemps"],
     "license": "MIT",
     "scripts": {
         "test": "tape test",
