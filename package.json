@@ -7,7 +7,7 @@
     "contributors": ["Theo Bontemps"],
     "license": "MIT",
     "scripts": {
-        "test": "tape test",
+        "test": "npx tape test",
         "test:coverage": "nyc tape test"
     },
     "keywords": [
