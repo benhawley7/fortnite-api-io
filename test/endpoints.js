@@ -21,7 +21,7 @@ test("all endpoints prefix with correct url", assert => {
     assert.plan(functions.length);
     functions.forEach(functionName => {
         const uri = endpoints[functionName]();
-        assert.true(uri.includes("https://fortniteapi.io"), `${functionName} has correct prefix url`);
+        assert.true(uri.includes("https://fortniteapi.io/"), `${functionName} has correct prefix url`);
     });
     assert.end();
 });
