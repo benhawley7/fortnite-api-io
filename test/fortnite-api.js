@@ -49,15 +49,30 @@ test("api class does not throw with credentials and valid default lang", assert 
     assert.end();
 });
 
-test("all methods return a uri and uri has correct prefix", async assert => {
-    const fortniteAPI = new ForniteAPI("example-api-key");
+test("all v1 methods return a uri and uri has correct prefix", async assert => {
+    const fortniteAPI = new ForniteAPI("example-api-key", {
+        ignoreWarnings: false
+    });
     const ignore = ["constructor", "request"];
     const methods = Object.getOwnPropertyNames(Object.getPrototypeOf(fortniteAPI))
         .filter(method => !ignore.includes(method));
     assert.plan(methods.length);
     for (const methodName of methods) {
         const uri = await fortniteAPI[methodName]();
-        assert.true(uri.includes("https://fortniteapi.io"), `method: ${methodName} has correct prefix url`);
+        assert.true(uri.includes("https://fortniteapi.io/v1"), `method: ${methodName} has correct prefix url`);
+    }
+    assert.end();
+});
+
+test("all v2 methods return a uri and uri has correct prefix", async assert => {
+    const fortniteAPI = new ForniteAPI("example-api-key");
+    const ignore = ["constructor", "request"];
+    const methods = Object.getOwnPropertyNames(Object.getPrototypeOf(fortniteAPI.v2))
+        .filter(method => !ignore.includes(method));
+    assert.plan(methods.length);
+    for (const methodName of methods) {
+        const uri = await fortniteAPI.v2[methodName]();
+        assert.true(uri.includes("https://fortniteapi.io/v2"), `method: ${methodName}V2 has correct prefix url`);
     }
     assert.end();
 });
@@ -93,3 +108,4 @@ test("getNews defaults to br news", async assert => {
     assert.true(uri.includes("type=br"));
     assert.end();
 });
+
