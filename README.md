@@ -32,7 +32,7 @@ The API is currently transitioning into its second version. Where available, it 
 // Get the next upcoming items (version 2)
 const upcomingItems = await client.v2.listItems();
 
-// Get this seasons challenges (version 2)
+// Get this season's challenges (version 2)
 const challenges = await client.v2.listChallenges("current");
 
 // Get all stats for a specific loot/weapon item (version 1)
